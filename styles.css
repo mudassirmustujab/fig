@@ -1,0 +1,227 @@
+/* Utility Classes */
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+.btn-every {
+    background-color: #1D809F !important;
+    padding: 20px 40px;
+}
+
+/* Navbar Starts Here */
+
+
+
+nav .offcanvas {
+    background-color: #1D809F !important;
+}
+
+nav .offcanvas-header {
+    background-color: #1F7996 !important;
+}
+
+nav .btn {
+    background-color: black !important;
+    opacity: 0.3;
+}
+
+nav i {
+    color: white;
+}
+
+/* Navbar Ends Here */
+
+/* Section 1 Starts Here */
+
+.sec1 {
+    background-image: url("assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(230, 230, 230, 0.753);
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.sec1 h1 {
+    font-size: 5.5rem;
+}
+
+.sec1 h3 {
+    font-size: 1.5rem;
+}
+
+/* Section 1 Ends Here */
+
+/* Section 2 Starts Here */
+
+.sec2 {
+    height: 60vh;
+    background-color: #F8F9FA;
+}
+
+/* Section 2 Ends Here */
+
+.sec3 {
+    height: auto;
+    background-color: #1D809F;
+}
+
+.sec3 .firstRow small {
+    color: #ECB807;
+}
+
+.sec3 h1 {
+    font-size: 3rem;
+}
+
+.sec3 .row #i {
+    font-size: 2.4rem !important;
+    color: #1D809F;
+}
+
+.sec3 .span-parent {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.sec3 span {
+    height: fit-content;
+    margin: auto 0px;
+}
+
+.sec3 p {
+    color: gainsboro;
+}
+
+
+/* Section 4 Starts Here */
+
+.sec4 {
+    background-image: url("assets/img/bg-callout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(87, 87, 87, 0.103);
+    background-blend-mode: lighten;
+    height: 100vh;
+}
+
+.sec4 h1 {
+    font-size: 4rem;
+}
+
+/* Section 4 Ends Here */
+
+/* Section 5 Start Here */
+
+.sec5 .container .secondRow .firstCol6 {
+    background-image: url("assets/img/portfolio-1.jpg");
+    background-size: cover;
+}
+
+.sec5 .secondRow .secondCol6 {
+    background-image: url("assets/img/portfolio-2.jpg");
+    background-size: cover;
+}
+
+.sec5 .secondRow .thirdCol6 {
+    background-image: url("assets/img/portfolio-3.jpg");
+    background-size: cover;
+
+}
+
+.sec5 .secondRow .fourthCol6 {
+    background-image: url("assets/img/portfolio-4.jpg");
+    background-size: cover;
+}
+
+.sec5Div {
+    display: block;
+    margin-top: 47%;
+    margin-left: 1rem;
+}
+
+/* Section 5 Ends Here */
+
+/* Section 6 Start Here */
+
+.sec6 {
+    height: 60vh;
+    background-color: #1D809F;
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+/* last container starts here */
+.lastCont {
+    height: 40vh;
+}
+
+.lastCont .iconDiv {
+    height: 4rem;
+    width: 4rem;
+    background-color: #1D809F;
+    border-radius: 100%;
+}
+
+.lastCont .iconDiv i {
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* Media Queries Start Here */
+
+@media screen and (min-width:0px) and (max-width:578px) {
+    /* Section 1 Starts Here */
+
+.sec1 {
+    background-image: url("assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(230, 230, 230, 0.753);
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.sec1 h1 {
+    font-size: 4rem;
+}
+
+.sec1 h3 {
+    font-size: 1rem;
+}
+
+.sec1 .btn{
+    padding: 1rem 1.5rem;
+}
+
+/* Section 1 Ends Here */
+
+/* Section 4 Starts Here */
+
+.sec4 {
+    background-image: url("assets/img/bg-callout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(87, 87, 87, 0.103);
+    background-blend-mode: lighten;
+    height: 100vh;
+}
+
+.sec4 h1 {
+    font-size: 3.5rem;
+}
+
+/* Section 4 Ends Here */
+}
